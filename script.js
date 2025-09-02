@@ -14,7 +14,7 @@ while(angle < 360){
     line.style.backgroundColor = 'white '
     line.style.border = '1px solid black'
     line.style.position = 'absolute'
-    
+    line.style.zIndex = '2'
     line.style.top = (48+45*Math.sin(angle*Math.PI/180))+'%'
     line.style.left = (49+45*Math.cos(angle*Math.PI/180))+'%'
 
@@ -32,6 +32,7 @@ hand.style.backgroundImage = 'linear-gradient(white 50%,rgb(189, 189, 189,0) 50%
 hand.style.position = 'absolute'
 hand.style.borderRadius = '50vh'
 hand.style.top = '10%'
+hand.style.zIndex = '2'
 hand.style.left = '49%'
 hand.style.rotate = '0deg'
 
